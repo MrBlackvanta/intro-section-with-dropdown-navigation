@@ -35,13 +35,12 @@ describe("Hero", () => {
     expect(source).toHaveAttribute("height");
   });
 
-  it("offers Learn more as a link", () => {
+  it("offers Learn more as a link that names what it is about", () => {
     render(<Hero />);
+    const link = screen.getByRole("link", { name: /^learn more/i });
 
-    expect(screen.getByRole("link", { name: "Learn more" })).toHaveAttribute(
-      "href",
-      "/",
-    );
+    expect(link).toHaveAttribute("href", "/");
+    expect(link).toHaveTextContent("Learn more about snap");
   });
 
   it("names each client logo in a labelled list", () => {

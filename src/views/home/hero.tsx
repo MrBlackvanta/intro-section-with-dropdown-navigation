@@ -33,7 +33,7 @@ export default function Hero() {
           create team rituals, and watch productivity soar.
         </p>
         <Link href="/" className="mt-6 v-button xl:mt-13">
-          Learn more
+          Learn more<span className="sr-only"> about snap</span>
         </Link>
         <ClientLogos className="mt-12 self-stretch xl:mt-27" />
       </div>
