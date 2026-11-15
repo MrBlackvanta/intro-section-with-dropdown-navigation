@@ -50,6 +50,9 @@
   --radius-button-sm: 0.875rem;
   --radius-button: 0.9375rem;
 
+  --border-width-*: initial;
+  --border-width-button-sm: 1.5px;
+
   --shadow-*: initial;
   --shadow-dropdown: 0 0.625rem 2.5rem rgb(0 0 0 / 0.15);
 }

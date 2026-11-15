@@ -7,7 +7,8 @@ export default function Logo(props: SVGProps<SVGSVGElement>) {
       width="84"
       height="27"
       viewBox="0 0 84 27"
-      aria-hidden="true"
+      role="img"
+      aria-label="snap"
       {...props}
     >
       <path
