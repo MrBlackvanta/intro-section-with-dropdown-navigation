@@ -18,7 +18,7 @@ const shareImage = {
   url: "/opengraph-image.jpg",
   width: 1200,
   height: 630,
-  alt: "The snap wordmark and the headline Make remote work, beside a person typing on a laptop framed by bold geometric shapes.",
+  alt: "The snap wordmark under the line Make remote work, beside a person typing on a laptop framed by bold geometric shapes.",
 };
 
 export const metadata: Metadata = {
