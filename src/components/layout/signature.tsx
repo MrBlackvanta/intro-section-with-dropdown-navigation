@@ -1,6 +1,6 @@
 export default function Signature() {
   return (
-    <p className="absolute inset-x-0 bottom-0.5 px-6 text-xs text-muted">
+    <p className="absolute inset-x-0 bottom-0.5 px-6 text-nav text-muted">
       Coded by{" "}
       <a
         href="https://www.linkedin.com/in/abdelrhman-vanta/"
