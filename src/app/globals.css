@@ -61,6 +61,10 @@
   --font-sans: var(--font-epilogue), ui-sans-serif, system-ui, sans-serif;
 }
 
+@utility v-button {
+  @apply flex h-12 items-center rounded-button border border-ink bg-ink px-5.5 text-button-sm text-page transition-[color,background-color] hover:bg-transparent hover:text-ink xl:h-14 xl:px-7.5 xl:text-button;
+}
+
 @layer base {
   html {
     overflow-y: scroll;

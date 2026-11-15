@@ -32,10 +32,7 @@ export default function Hero() {
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar.
         </p>
-        <Link
-          href="/"
-          className="mt-6 flex h-12 items-center rounded-button border border-ink bg-ink px-5.5 text-button-sm text-page transition-[color,background-color] hover:bg-transparent hover:text-ink xl:mt-13 xl:h-14 xl:px-7.5 xl:text-button"
-        >
+        <Link href="/" className="mt-6 v-button xl:mt-13">
           Learn more
         </Link>
         <ClientLogos className="mt-12 self-stretch xl:mt-27" />
