@@ -16,8 +16,8 @@
   --tracking-tight: -0.01389em;
 
   --text-*: initial;
-  --text-display: 5rem;
-  --text-display--line-height: 5rem;
+  --text-display: clamp(2.5rem, 5.6vw, 5rem);
+  --text-display--line-height: 1;
   --text-display--letter-spacing: var(--tracking-tight);
   --text-display--font-weight: 700;
 
